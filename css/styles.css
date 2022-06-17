@@ -1,0 +1,58 @@
+body{
+  background-color: #BDE6F1;
+}
+section{
+  margin: auto;
+}
+h3{
+  text-align: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* CLASS SELECTORS */
+.container-fluid{
+  padding: 5% 5%;
+
+}
+.box{
+  border-radius: 15%;
+  padding: 8%;
+}
+.box:hover{
+  background-color: #1B2430;
+
+}
+span{
+  text-decoration: underline;
+}
+.end{
+  text-align: center;
+}
+.button{
+  margin: auto;
+  border-radius: 40%;
+  background-color: white;
+  width: 140px;
+}
+.one{
+  background-color: #51557E;
+}
+.two{
+  background-color: #A5BECC;
+}
+.three{
+  background-color:#816797;
+}
+@media (max-width:900px) {
+  .box{
+    padding: 8%;
+  }
+  .container-fluid{
+    padding: 10% 10%;
+
+  }
+
+}
